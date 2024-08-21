@@ -1,0 +1,35 @@
+<script>
+    
+
+    function observerCallback(entries, observer) {
+        entries.forEach(function(entry) {
+            if (entry.target.classList.contains('header')) {
+                if (entry.isIntersecting) {
+                    headerVisible = true;
+                } else {
+                    headerVisible = false;
+                    segundoMenu.classList.add('segundoMenuDesativo');
+                    segundoMenu.classList.remove('segundoMenuAtivo');
+                }
+            }
+
+            if (entry.target.classList.contains('elementoQueSurge') && entry.isIntersecting) {
+                entry.target.classList.add('surgir');
+            }
+        });
+    }
+
+    const configuracoesObservador = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0
+    };
+
+    const meuObservador = new IntersectionObserver(observerCallback, configuracoesObservador);
+
+    targets.forEach(function(target) {
+        meuObservador.observe(target);
+    });
+
+    window.addEventListener('scroll', handleScroll);
+</script>

@@ -1,0 +1,189 @@
+:root {
+    --cor-fundo-site: black;
+    --cor-fundo-segundo-menu: rgba(0, 0, 0, 0.200);
+    --cor-fundo-site-dois: #a9a9a9af;
+    --cor-fundo-rodape: #d3d3d3;
+    --cor-texto-padrao: white;
+    --cor-titulo-padrão: #ff4500;
+    --cor-titulo-dois: #a9a9a9;
+    --cor-link-padrao: white;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    background-color: var(--cor-fundo-site);
+    color: var(--cor-texto-padrao);
+}
+body {
+    position: relative;
+    margin: 0px;
+}
+
+
+/*               header                  */
+
+nav {
+    padding-top: 2vh;
+}
+header a {
+    font-family: 'Teko', sans-serif;
+    font-size: 1.7rem;
+    margin-right: 5vw;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 1s ease, color 1s ease;
+}
+header a:hover {
+    border-bottom: 3px solid var(--cor-titulo-padrão);
+    color: var(--cor-titulo-padrão);
+}
+.segundoMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 2;
+    background-color: var(--cor-fundo-segundo-menu);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.200);
+    transition: opacity 0.5s ease-in-out;
+}
+.segundoMenuDesativo {
+    z-index: -1;
+    opacity: 0;
+}
+#segundoMenu p {
+    display: flex;
+    justify-content: end;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+#segundoMenu a {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.3rem;
+    height: 100%;
+    margin-right: 5vw;
+}
+#segundoMenu a:hover {
+    text-decoration: underline;
+}
+
+
+/*               Corpo                  */
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 4rem;
+    margin: 0px
+}
+h2 {
+    font-family: 'Teko', sans-serif;
+    color: var(--cor-titulo-padrão);
+    font-size: 3.2rem;
+    margin: 0px
+}
+h3 {
+    font-family: 'Teko', sans-serif;
+    color: var(--cor-titulo-padrão);
+    font-size: 2.8rem;
+    margin: 0px
+}
+h4 {
+    font-family: 'Teko', sans-serif;
+    font-size: 2rem;
+    margin: 0px;
+}
+h5 {
+    font-family: 'Teko', sans-serif;
+    font-size: 2rem;
+    margin: 0px
+}
+h6 {
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5rem;
+    margin: 0px
+}
+p {
+    font-family: "Inter";
+    font-size: 1.2rem;
+    line-height: 30px;
+    margin: 0px
+}
+a {
+    text-decoration: none;
+    color: var(--cor-link-padrao);
+    font-size: 1.2rem;
+    margin: 0px
+}
+ul {
+    margin: 0px;
+}
+li {
+    font-size: 1.2rem;
+    line-height: 30px;
+    margin: 0px
+}
+
+
+/*               Primeira tela                  */
+
+
+
+/*               Footer                  */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    background-color: var(--cor-fundo-rodape);
+}
+footer h2 {
+    box-sizing: border-box;
+    color: black;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 2%;
+    font-size: 2.5rem;
+}
+footer p {
+    color: black;
+    padding-top: 20px;
+    padding-left: 2%;
+}
+footer a {
+    color: black;
+    margin-left: 20px;
+    font-size: 1.3rem;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+#artVoltar {
+    display: flex;
+    align-self: baseline;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: 60px;
+}
+.line {
+    display: inline-block;
+    height: 15%;
+    width: 40%;
+    border-bottom: 3px solid black;
+    margin: 0 auto;
+}
+#voltar,
+#voltar a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 1.1rem;
+}
+#voltar a:hover {
+    text-decoration: none;
+}

@@ -1,0 +1,208 @@
+/*               Header                  */
+
+header {
+    position: relative;
+    height: 100vh;
+    max-height: 1000px;
+    padding-left: 1vw;
+    border-bottom: 1px solid white;
+}
+header video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    object-fit: cover;
+    pointer-events: none;
+}
+
+
+/*               Corpo                  */
+
+#primeiroFundo {
+    background-image: url(../../recursos/imagens/fundoGrade.png);
+    background-position: right center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.elementoQueSurge {
+    box-sizing: border-box;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 2s ease, transform 2s ease;
+}
+.surgir {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/*               Primeira tela                  */
+
+#primeiraTela h1 {
+    filter: drop-shadow(5px 4px 2px black);
+    margin-top: min(30vh, 400px);
+    max-width: 50vw;
+    font-size: 5rem;
+    line-height: 70px;
+}
+#subtitulo {
+    font-family: 'Orbitron';
+    font-weight: 300;
+    font-size: 1.8rem;
+    max-width: 50vw;
+}
+
+
+/*               Seçâo Sobre Mim                  */
+
+#sobreMim {
+    padding-top: 20vh;
+    width: 50vw;
+    padding-left: 4vw;
+}
+#sobreMim h2 {
+    margin-bottom: 5vh;
+    width: fit-content;
+}
+#sobreMim p {
+    width: min(80%, 900px);
+    margin-bottom: 15vh;
+}
+
+
+/*               Seçâo Sobre Mim                  */
+
+#academico {
+    margin-top: 20vh 0px;
+    width: 50vw;
+    padding-left: 4vw;
+}
+#academico h2 {
+    margin-bottom: 5vh;
+}
+#academico ul {
+    padding-bottom: 10vh;
+}
+
+
+/*               Seçâo Trabalho                  */
+
+#secaoTrabalho {
+    background-image: url(../../recursos/imagens/fundoProfissão.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#fundoCinza {
+    display: flex;
+    align-items: center;
+    padding: 3vh 5vw;
+    background-color: var(--cor-fundo-site-dois);
+}
+#colUm {
+    max-width: 40%;
+    padding-bottom: 30px;
+}
+#secaoTrabalho img { /* (colDois) */
+    height: 300px;
+    margin: auto;
+}
+#colTres {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-self: end;
+    max-width: 40%;
+}
+#empresas {
+    width: 100%;
+    margin-bottom: 40px;
+}
+#atividades {
+    width: 100%;
+}
+#secaoTrabalho p,
+#secaoTrabalho h2,
+#secaoTrabalho h4,
+#secaoTrabalho li,
+#secaoTrabalho img {
+    color: black;
+}
+#secaoTrabalho h2 {
+    height: fit-content;
+    margin-bottom: 50px;
+}
+#h4Descricao {
+    margin-bottom: 20px;
+}
+
+
+/*               Seçâo Habilidades                  */
+
+#secaoHabilidades {
+    background-image: url(../../recursos/imagens/fundoOnda.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-attachment: fixed;
+    padding-bottom: 200px;
+}
+#secaoHabilidades h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+#secaoHabilidades h3 {
+    color: var(--cor-titulo-dois);
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+#artHardSkills,
+#artSoftSkills {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(20, 20, 20);
+    margin: auto;
+    width: 98vw;
+    max-width: 100%;
+}
+#artHardSkills {
+    margin-bottom: 200px;
+}
+#secHardSkills,
+#secSoftSkills {
+    box-sizing: border-box;
+    width: 49vw;
+    max-width: 50%;
+    padding-left: 5%;
+}
+#secHardSkills ul,
+#secSoftSkills ul{
+    box-sizing: border-box;
+    width: 100%;
+}
+.liHabilidades {
+    box-sizing: border-box;
+    width: 80%;
+    font-size: 1.3rem;
+    line-height: 40px;
+}
+#artHardSkills img,
+#artSoftSkills img {
+    width: 49vw;
+    max-width: 50%;
+}
+
+
+/* Outros */
+
+.limite {
+    margin: auto;
+    max-width: 2000px;
+}
