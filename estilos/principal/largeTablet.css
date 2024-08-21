@@ -1,0 +1,109 @@
+/*               Corpo                  */
+
+#primeiroFundo {
+    background-image: url(../../recursos/imagens/fundoGradeTablet.png);
+}
+
+
+/*               Seçâo Sobre Mim                  */
+
+#sobreMim {
+    padding-top: 15vh;
+    width: 58vw;
+    padding-left: 2vw;
+}
+#sobreMim h2 {
+    margin-bottom: 4vh;
+}
+#sobreMim p {
+    margin-bottom: 12vh;
+}
+
+
+/*               Seçâo Academico                  */
+
+#academico {
+    width: 58vw;
+    padding-left: 2vw;
+}
+#academico h2 {
+    margin-bottom: 4vh;
+}
+#academico ul {
+    padding-bottom: 8vh;
+}
+
+
+/*               Primeira tela                  */
+
+#primeiraTela h1 {
+    max-width: 60vw;
+}
+#subtitulo {
+    max-width: 60vw;
+}
+
+
+/*               Seçâo Trabalho                  */
+
+#fundoCinza {
+    padding: 2vh 2vw;
+}
+#colUm {
+    padding-bottom: 20px;
+}
+#secaoTrabalho img { /* (colDois) */
+    height: 250px;
+    transition: all 1s ease;
+}
+@media screen and (max-width: 980px) {
+    #colUm {
+        max-width: 45%;
+        padding-bottom: 30px;
+    }
+    #secaoTrabalho img { /* (colDois) */
+        margin: 0px;
+        width: 1px;
+        padding: 0px;
+        border-left: 1px solid black;
+    }
+    #colTres {
+        max-width: 45%;
+    }
+}
+
+
+/*               Seçâo Habilidades                  */
+
+#secaoHabilidades {
+    padding-bottom: 100px;
+}
+#secaoHabilidades h2 {
+    padding-top: 100px;
+}
+#secaoHabilidades h3 {
+    font-size: 2.2rem;
+    margin-bottom: 12px;
+}
+#artHardSkills {
+    margin-bottom: 100px;
+}
+#secHardSkills,
+#secSoftSkills {
+    width: 54vw;
+    max-width: 55%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#secSoftSkills {
+    padding-left: 5%;
+}
+.liHabilidades {
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+#artHardSkills img,
+#artSoftSkills img {
+    width: 44vw;
+    max-width: 45%;
+}

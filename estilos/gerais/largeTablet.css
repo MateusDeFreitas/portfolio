@@ -1,0 +1,26 @@
+html {
+    font-size: 14px;
+}
+
+
+
+/*               header                  */
+
+header a {
+    font-size: 1.8rem;
+    margin-right: 5vw;
+}
+
+
+/*               Footer                  */
+
+footer {
+    height: 180px;
+}
+footer p {
+    padding-top: 10px;
+}
+footer a {
+    margin-left: 15px;
+    font-size: 1.2rem;
+}

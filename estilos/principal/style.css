@@ -29,7 +29,6 @@ header video {
     background-size: cover;
 }
 .elementoQueSurge {
-    box-sizing: border-box;
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 2s ease, transform 2s ease;
@@ -74,10 +73,9 @@ header video {
 }
 
 
-/*               Seçâo Sobre Mim                  */
+/*               Seçâo Academico                  */
 
 #academico {
-    margin-top: 20vh 0px;
     width: 50vw;
     padding-left: 4vw;
 }
@@ -99,6 +97,7 @@ header video {
 }
 #fundoCinza {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 3vh 5vw;
     background-color: var(--cor-fundo-site-dois);
@@ -108,8 +107,9 @@ header video {
     padding-bottom: 30px;
 }
 #secaoTrabalho img { /* (colDois) */
-    height: 300px;
     margin: auto;
+    height: 300px;
+    padding: 1vw;
 }
 #colTres {
     display: flex;
@@ -177,19 +177,16 @@ header video {
 }
 #secHardSkills,
 #secSoftSkills {
-    box-sizing: border-box;
     width: 49vw;
     max-width: 50%;
     padding-left: 5%;
+    padding-bottom: 15px;
 }
 #secHardSkills ul,
 #secSoftSkills ul{
-    box-sizing: border-box;
     width: 100%;
 }
 .liHabilidades {
-    box-sizing: border-box;
-    width: 80%;
     font-size: 1.3rem;
     line-height: 40px;
 }

@@ -1,6 +1,6 @@
 :root {
     --cor-fundo-site: black;
-    --cor-fundo-segundo-menu: rgba(0, 0, 0, 0.200);
+    --cor-fundo-segundo-menu: rgba(0, 0, 0, 0.400);
     --cor-fundo-site-dois: #a9a9a9af;
     --cor-fundo-rodape: #d3d3d3;
     --cor-texto-padrao: white;
@@ -9,6 +9,9 @@
     --cor-link-padrao: white;
 }
 
+* {
+    box-sizing: border-box;
+}
 html {
     font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
@@ -181,6 +184,8 @@ footer a:hover {
 #voltar a {
     display: flex;
     align-items: center;
+    text-align: center;
+    margin: 0px;
     height: 100%;
     font-size: 1.1rem;
 }
