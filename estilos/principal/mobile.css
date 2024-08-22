@@ -1,0 +1,6 @@
+body {
+    display: none;
+}
+html::before {
+    content: "Adaptação para a versão mobiile, ainda não adicionada.";
+}

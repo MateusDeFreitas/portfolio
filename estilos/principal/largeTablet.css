@@ -5,6 +5,16 @@
 }
 
 
+/*               Primeira tela                  */
+
+#primeiraTela h1 {
+    max-width: 60vw;
+}
+#subtitulo {
+    max-width: 60vw;
+}
+
+
 /*               Seçâo Sobre Mim                  */
 
 #sobreMim {
@@ -31,16 +41,6 @@
 }
 #academico ul {
     padding-bottom: 8vh;
-}
-
-
-/*               Primeira tela                  */
-
-#primeiraTela h1 {
-    max-width: 60vw;
-}
-#subtitulo {
-    max-width: 60vw;
 }
 
 

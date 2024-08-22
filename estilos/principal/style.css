@@ -115,7 +115,6 @@ header video {
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
-    justify-self: end;
     max-width: 40%;
 }
 #empresas {
@@ -168,9 +167,12 @@ header video {
     align-items: center;
     flex-wrap: wrap;
     background-color: rgb(20, 20, 20);
-    margin: auto;
-    width: 98vw;
+    width: 100vw;
     max-width: 100%;
+}
+#artHardSkillsPequeno,
+#artSoftSkillsPequeno {
+    display: none;
 }
 #artHardSkills {
     margin-bottom: 200px;
@@ -185,6 +187,7 @@ header video {
 #secHardSkills ul,
 #secSoftSkills ul{
     width: 100%;
+    padding-right: 2vw;
 }
 .liHabilidades {
     font-size: 1.3rem;
