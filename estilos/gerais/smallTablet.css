@@ -5,7 +5,7 @@ html {
 
 /*               header                  */
 
-header a {
+header nav a {
     font-size: 1.8rem;
     margin-right: 5vw;
 }

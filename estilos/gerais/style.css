@@ -26,17 +26,20 @@ body {
 
 /*               header                  */
 
+.conteinerHamburguinho {
+    display: none;
+}
 nav {
     padding-top: 2vh;
 }
-header a {
+header nav a {
     font-family: 'Teko', sans-serif;
     font-size: 1.7rem;
     margin-right: 5vw;
     border-bottom: 3px solid transparent;
     transition: border-bottom 1s ease, color 1s ease;
 }
-header a:hover {
+header nav a:hover {
     border-bottom: 3px solid var(--cor-titulo-padrão);
     color: var(--cor-titulo-padrão);
 }
@@ -139,6 +142,7 @@ li {
 
 footer {
     display: flex;
+    overflow: hidden;
     flex-wrap: wrap;
     height: 200px;
     background-color: var(--cor-fundo-rodape);

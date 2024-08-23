@@ -1,0 +1,101 @@
+html {
+    font-size: 11px;
+}
+
+
+/*               header                  */
+
+header nav p {
+    display: none;
+}
+#segundoMenu p {
+    display: none;
+}
+#segundoConteinerMenuHamburguer {
+    padding: 10px;
+}
+.conteinerHamburguinho {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10px;
+}
+.menuHamburguer {
+    cursor: pointer;
+}
+#espacoMenu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    z-index: 3;
+    background-color: #000000;
+    transition: left 0.2s ease; 
+}
+#espacoMenu.aberto {
+    left: 0; 
+}
+#conteinerX {
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+#conteinerX h2 {
+    width: fit-content;
+    max-width: 80%;
+    font-family: "Press Start 2P", Audiowide, sans-serif;
+    font-size: 2.5rem;
+    color: var(--cor-texto-padrao);
+}
+#conteinerX img {
+    height: 25px;
+    width: auto;
+    max-width: 20%;
+}
+#espacoMenu p {
+    display: grid;
+    overflow-y: auto;
+    height: calc(100vh - 100px); 
+    padding: 10px;
+}
+header a {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    font-size: 2rem;
+    margin-right: 5vw;
+    border-bottom: 1px solid white;
+}
+
+
+/*               Corpo                  */
+
+p, li {
+    font-size: 1.4rem;
+}
+
+
+/*               Footer                  */
+
+footer {
+    height: 300px;
+}
+footer p {
+    display: grid;
+    padding-top: 10px;
+}
+footer a {
+    margin-left: 10px;
+    font-size: 1.4rem;
+}
+.line {
+    min-width: 20%;
+}
+#voltar a {
+    width: fit-content;
+    min-width: 40vw;
+    font-size: 1.3rem;
+}
