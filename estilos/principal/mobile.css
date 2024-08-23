@@ -18,8 +18,10 @@ header {
 #primeiraTela h1 {
     font-size: 4rem;
     max-width: 85vw;
+    line-height: 40px;
 }
 #subtitulo {
+    font-size: 1.7rem;
     max-width: 85vw;
 }
 @media screen and (max-width: 297px) {

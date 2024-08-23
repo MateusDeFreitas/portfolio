@@ -25,6 +25,7 @@ header nav p {
     cursor: pointer;
 }
 #espacoMenu {
+    display: block;
     position: fixed;
     top: 0;
     left: -100%;
@@ -57,6 +58,7 @@ header nav p {
 }
 #espacoMenu p {
     display: grid;
+    align-content: baseline;
     overflow-y: auto;
     height: calc(100vh - 100px); 
     padding: 10px;

@@ -26,6 +26,9 @@ body {
 
 /*               header                  */
 
+#espacoMenu {
+    display: none;
+}
 .conteinerHamburguinho {
     display: none;
 }
