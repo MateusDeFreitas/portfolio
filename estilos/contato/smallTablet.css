@@ -1,0 +1,15 @@
+/*              Seção Comunicação                        */
+
+#comunicacao {
+    flex-wrap: wrap;
+}
+#comunicacaoColunaUm img {
+    margin-bottom: 20px;
+    width: min(60vw, 300px);
+}
+#comunicacaoColunaUm {
+    width: 100%;
+}
+#comunicacaoColunaDois {
+    width: 100%;
+}

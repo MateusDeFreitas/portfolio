@@ -1,12 +1,13 @@
 :root {
     --cor-fundo-site: black;
-    --cor-fundo-segundo-menu: rgba(0, 0, 0, 0.400);
+    --cor-fundo-segundo-menu: rgba(0, 0, 0, 0.600);
     --cor-fundo-site-dois: #a9a9a9af;
     --cor-fundo-rodape: #d3d3d3;
     --cor-texto-padrao: white;
     --cor-titulo-padrão: #ff4500;
     --cor-titulo-dois: #a9a9a9;
     --cor-link-padrao: white;
+    --cor-principal-contato: #a9a9a9;
 }
 
 * {
