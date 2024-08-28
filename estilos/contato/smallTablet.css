@@ -13,3 +13,8 @@
 #comunicacaoColunaDois {
     width: 100%;
 }
+#comunicacaoColunaDois #spanEmail p {
+    font-size: 2rem;
+}#comunicacaoColunaDois span p {
+    font-size: 2.1rem;
+}

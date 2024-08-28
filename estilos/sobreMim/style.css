@@ -1,0 +1,58 @@
+/*               Header                  */
+
+header {
+    padding-left: 1vw;
+    background-image: url(../../recursos/imagens/fundoSobreMim.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid white;
+}
+header nav a {
+    color: var(--cor-principal-sobre-mim);
+}
+header nav a:hover {
+    border-bottom: 3px solid black;
+    color: black;
+}
+
+
+/*               Primeira tela                  */
+
+#primeiraTela h1 {
+    filter: drop-shadow(5px 4px 2px rgba(0, 0, 0, 0.4));
+    margin-top: min(40vh, 480px);
+    font-size: 5rem;
+    color: var(--cor-principal-sobre-mim);
+    line-height: 70px;
+}
+
+
+/*               Corpo                  */
+
+#sobreMim {
+    background-image: url(../../recursos/imagens/fundoSobreMimTexto.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 3vw;
+    padding-bottom: 15vh;
+}
+#sobreMim h2 {
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+}
+#sobreMim p {
+    max-width: 45vw;
+    margin-top: 7vh;
+}
+#sobreMim a {
+    color: var(--cor-link-sobre-mim);
+    font-weight: 600;
+    transition: color 1s;
+}
+#sobreMim a:hover {
+    color: var(--cor-link-sobre-mim-forte);
+}

@@ -5,6 +5,9 @@ html {
 
 /*               header                  */
 
+header {
+    height: 95vh;
+}
 header nav p {
     display: none;
 }
@@ -22,6 +25,8 @@ header nav p {
     padding-right: 10px;
 }
 .menuHamburguer {
+    width: 24px;
+    height: 24px;
     cursor: pointer;
 }
 #espacoMenu {

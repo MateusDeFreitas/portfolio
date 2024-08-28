@@ -1,0 +1,12 @@
+/*               Corpo                  */
+
+#sobreMim {
+    padding-left: 2vw;
+}
+#sobreMim h2 {
+    padding-bottom: 3vh;
+}
+#sobreMim p {
+    max-width: 55vw;
+    margin-top: 5vh;
+}

@@ -1,8 +1,6 @@
 /*               Header                  */
 
 header {
-    height: 100vh;
-    max-height: 800px;
     padding-left: 1vw;
     background-image: url(../../recursos/imagens/fundoComunicacao.jpg);
     background-position: center center;
@@ -15,6 +13,7 @@ header nav a:hover {
     border-bottom: 3px solid var(--cor-principal-contato);
     color: var(--cor-principal-contato);
 }
+
 
 /*               Primeira tela                  */
 
@@ -58,8 +57,21 @@ header nav a:hover {
     align-items: center;
     width: 50%;
 }
+#comunicacaoColunaDois address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    height: 100%;
+    min-height: 350px;
+    width: 100%;
+    font-style: normal;
+}
 #comunicacaoColunaDois a {
+    display: block;
     width: 85%;
+    height: 70px;
+    min-height: 18%;
 }
 #comunicacaoColunaDois span {
     display: flex;
@@ -67,7 +79,7 @@ header nav a:hover {
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
-    height: 70px;
+    height: 100%;
     width: 100%;
     padding: 10px;
     border: 1px solid var(--cor-principal-contato);
@@ -97,11 +109,14 @@ header nav a:hover {
     width: 100%;
 }
 #comunicacaoColunaDois span p {
+    height: fit-content;
     font-family: 'Teko', sans-serif;
     font-size: 1.8rem;
 }
 #comunicacaoColunaDois #spanEmail {
     width: 85%;
+    height: 70px;
+    min-height: 18%;
 }
 #comunicacaoColunaDois #spanEmail p {
     font-size: 1.7rem;

@@ -1,0 +1,13 @@
+/*               Corpo                  */
+
+#sobreMim {
+    background-image: url(../../recursos/imagens/fundoSobreMimTextoMenor.jpg);
+    padding-left: 1vw;
+}
+#sobreMim h2 {
+    padding-bottom: 3vh;
+}
+#sobreMim p {
+    max-width: 85vw;
+    margin-top: 5vh;
+}

@@ -5,9 +5,12 @@
     --cor-fundo-rodape: #d3d3d3;
     --cor-texto-padrao: white;
     --cor-titulo-padrão: #ff4500;
+    --cor-link-sobre-mim:rgb(212, 57, 0);
+    --cor-link-sobre-mim-forte:#b33000;
     --cor-titulo-dois: #a9a9a9;
     --cor-link-padrao: white;
     --cor-principal-contato: #a9a9a9;
+    --cor-principal-sobre-mim: #1f1d3b;
 }
 
 * {
@@ -27,6 +30,10 @@ body {
 
 /*               header                  */
 
+header {
+    height: 100vh;
+    max-height: 1500px;
+}
 #espacoMenu {
     display: none;
 }
@@ -52,7 +59,7 @@ header nav a:hover {
     top: 0;
     left: 0;
     width: 100%;
-    height: 40px;
+    height: 50px;
     z-index: 2;
     background-color: var(--cor-fundo-segundo-menu);
     border-bottom: 1px solid rgba(255, 255, 255, 0.200);
