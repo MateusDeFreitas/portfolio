@@ -80,7 +80,7 @@ header a {
 
 /*               Corpo                  */
 
-p, li {
+p, li, a {
     font-size: 1.4rem;
 }
 

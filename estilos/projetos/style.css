@@ -1,0 +1,102 @@
+/*               Header                  */
+
+header {
+    padding-left: 1vw;
+    background-image: url(../../recursos/imagens/fundoProgramacao.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid white;
+}
+
+
+/*               Primeira tela                  */
+
+#primeiraTela h1 {
+    filter: drop-shadow(5px 4px 2px black);
+    margin-top: min(35vh, 400px);
+    max-width: 50vw;
+    font-size: 5rem;
+    line-height: 70px;
+}
+
+
+/*                seção Projetos                  */
+
+#sececaoProjetos {
+    margin: auto;
+    width: 100%;
+}
+.projetos {
+    display: flex;
+    width: 100%;
+    padding-top: 150px;
+}
+.projetosEsquerda {
+    padding-left: 5%;
+}
+.projetosDireita {
+    padding-right: 5%;
+    flex-direction: row-reverse;
+}
+.projetosEsquerda .colTexto {
+    padding-right: 10%;
+}
+.projetosDireita .colTexto {
+    padding-left: 10%;
+}
+.colTexto {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 55%;
+}
+.colTexto h2 {
+    margin-bottom: 30px;
+    line-height: 40px;
+}
+.colTexto p {
+    margin-bottom: 30px;
+}
+.colImagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteinerImagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 15px;
+    border: 1px solid var(--cor-titulo-padrão);
+}
+.colImagem img {
+    width: 20vw;
+    height: auto;
+}
+
+
+/*                seção ver mais                */
+
+#artVerMais {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+    padding: 150px 0px;
+}
+#verMaisColUm {
+    width: 60%;
+}
+#artVerMais img {
+    width: 25%;
+    padding-left: 5%;
+}
+#artVerMais a {
+    color: var(--cor-titulo-padrão);
+}

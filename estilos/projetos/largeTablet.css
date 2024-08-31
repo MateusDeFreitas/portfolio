@@ -1,0 +1,43 @@
+/*                seção Projetos                  */
+
+#sececaoProjetos {
+    width: 90%;
+}
+.projetos {
+    flex-direction: column-reverse;
+    padding-top: 75px;
+}
+.projetosEsquerda {
+    padding-left: 0%;
+}
+.projetosDireita {
+    padding-right: 0%;
+}
+.projetosEsquerda .colTexto {
+    padding-right: 0%;
+}
+.projetosDireita .colTexto {
+    padding-left: 0%;
+}
+.colTexto {
+    width: 100%;
+}
+.conteinerImagem {
+    margin-bottom: 40px;
+    width: 40vw;
+    height: 40vw;
+}
+.colImagem img {
+    width: 35vw;
+}
+
+
+/*                seção ver mais                */
+
+#artVerMais {
+    width: 95%;
+}
+#artVerMais img {
+    width: 37%;
+    padding-left: 3%;
+}
