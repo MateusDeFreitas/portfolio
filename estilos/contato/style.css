@@ -49,6 +49,7 @@ header nav a:hover {
     margin-top: 20px;
     height: auto;
     width: 27vw;
+    max-width: 600px;
 }
 #comunicacaoColunaDois {
     display: flex;

@@ -13,6 +13,9 @@
 #comunicacaoColunaDois {
     width: 100%;
 }
+#comunicacaoColunaDois span::before {
+    background-color: rgba(219, 219, 219, 0.3);
+}
 
 @media screen and (max-width: 302px) {
     #comunicacaoColunaDois #spanEmail p {

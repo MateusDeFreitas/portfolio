@@ -221,3 +221,11 @@ footer a:hover {
 #voltar a:hover {
     text-decoration: none;
 }
+
+
+/* Outros */
+
+.limite {
+    margin: auto;
+    max-width: 2000px;
+}

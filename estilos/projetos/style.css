@@ -41,16 +41,16 @@ header {
     flex-direction: row-reverse;
 }
 .projetosEsquerda .colTexto {
-    padding-right: 10%;
+    padding-right: 7%;
 }
 .projetosDireita .colTexto {
-    padding-left: 10%;
+    padding-left: 7%;
 }
 .colTexto {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    width: 55%;
+    width: 63%;
 }
 .colTexto h2 {
     margin-bottom: 30px;
@@ -68,7 +68,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25vw;
+    width: min(25vw, 600px);
     height: 25vw;
     border-radius: 15px;
     border: 1px solid var(--cor-titulo-padrão);

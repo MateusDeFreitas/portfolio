@@ -1,3 +1,11 @@
+/*               Header                  */
+
+header {
+    background-image: url(../../recursos/imagens/fundoProgramacaoMenor.jpg);
+    background-position: center top;
+}
+
+
 /*                seção Projetos                  */
 
 #sececaoProjetos {
