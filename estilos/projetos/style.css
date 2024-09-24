@@ -1,15 +1,19 @@
 /*               Header                  */
 
 header {
-    padding-left: 1vw;
-    background-image: url(../../recursos/imagens/fundoProgramacao.png);
+    background-image: url(../../recursos/imagens/fundoProjeto.jpg);
     background-position: right center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 1px solid white;
 }
-
+#divEscurecida {
+    width: 100%;
+    height: 100%;
+    padding-left: 1vw;
+    background-image: linear-gradient(to right, black 0%, transparent 50%, transparent 100%);
+}
 
 /*               Primeira tela                  */
 
@@ -71,16 +75,25 @@ header {
     width: min(25vw, 600px);
     height: 25vw;
     border-radius: 15px;
-    border: 1px solid var(--cor-titulo-padrão);
+
 }
 .colImagem img {
     width: 20vw;
     height: auto;
 }
+.colImagem img.imgPequena {
+    width: 24vw;
+}
+.linkProjetos {
+    transition: color 0.5s;
+}
+.linkProjetos:hover {
+    color: var(--cor-titulo-padrão);
+}
 
 
 /*                seção ver mais                */
-
+ 
 #artVerMais {
     display: flex;
     flex-wrap: wrap;

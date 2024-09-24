@@ -1,16 +1,18 @@
 /*               Header                  */
 
 header {
-    padding-left: 1vw;
-    background-image: url(../../recursos/imagens/fundoSobreMim.jpg);
-    background-position: center center;
+    background-image: url(../../recursos/imagens/fundoQuemSouEu.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 1px solid white;
 }
-header nav a {
-    
+#divEscurecida {
+    width: 100%;
+    height: 100%;
+    padding-left: 1vw;
+    padding-left: 1vw;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
 }
 header nav a:hover {
     border-bottom: 3px solid black;

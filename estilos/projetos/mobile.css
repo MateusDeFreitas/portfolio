@@ -4,6 +4,9 @@ header {
     background-image: url(../../recursos/imagens/fundoProgramacaoMenor.jpg);
     background-position: center top;
 }
+#divEscurecida {
+    background-image: linear-gradient(to right, transparent 100%, transparent 100%);
+}
 
 
 /*                seção Projetos                  */
@@ -35,7 +38,8 @@ header {
     width: 75vw;
     height: 55vw;
 }
-.colImagem img {
+.colImagem img, 
+.colImagem img.imgPequena {
     width: 45vw;
 }
 

@@ -100,6 +100,9 @@ header nav a:hover {
 #segundoMenu a:hover {
     text-decoration: underline;
 }
+.botaoX {
+    cursor: pointer;
+}
 
 
 /*               Corpo                  */

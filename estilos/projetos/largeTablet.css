@@ -30,6 +30,9 @@
 .colImagem img {
     width: 35vw;
 }
+.colImagem img.imgPequena {
+    width: 38vw;
+}
 
 
 /*                seção ver mais                */

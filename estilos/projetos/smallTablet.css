@@ -2,7 +2,10 @@
 
 header {
     background-image: url(../../recursos/imagens/fundoProgramacaoMenor.jpg);
-    background-position: center top;
+    background-position: center center;
+}
+#divEscurecida {
+    background-image: linear-gradient(to right, transparent 100%, transparent 100%);
 }
 
 
@@ -36,7 +39,10 @@ header {
     height: 40vw;
 }
 .colImagem img {
-    width: 30vw;
+    width: 33vw;
+}
+.colImagem img.imgPequena {
+    width: 37vw;
 }
 
 
