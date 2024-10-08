@@ -22,6 +22,29 @@ html {
     background-color: var(--cor-fundo-site);
     color: var(--cor-texto-padrao);
 }
+@media (min-width: 1300px) {
+    html {
+        font-size: 16px; 
+    }
+}
+
+@media (min-width: 1600px) {
+    html {
+        font-size: 18px; 
+    }
+}
+
+@media (min-width: 1900px) {
+    html {
+        font-size: 20px; 
+    }
+}
+
+@media (min-width: 2100px) {
+    html {
+        font-size: 22px; 
+    }
+}
 body {
     position: relative;
     margin: 0px;
